@@ -1,11 +1,11 @@
 import "./App.css";
 import Row from "./Row";
-import requests from "./Requests";
+import requests from "./requests";
 import Banner from "./Banner";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       {/* Navbar */}
       <Banner />
       <Row
